@@ -1,0 +1,14 @@
+{
+  "name": "lenkram-backend",
+  "version": "1.0.0",
+  "engines": {
+     "node": ">=18 <19"
+  },
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "cd lenkram-backend/build && node server.js",
+    "prebuild": "cd lenkram-backend && npm run build",
+    "build" : "cd lenkram && npm run build"
+  }
+}
