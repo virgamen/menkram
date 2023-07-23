@@ -8,7 +8,7 @@
   "main": "server.js",
   "scripts": {
     "start": "cd lenkram-backend/build && node server.js",
-    "prebuild": "cd lenkram && ng build",
+    "prebuild": "cd lenkram && npm run build",
     "build" : "cd lenkram && npm run build"
   }
 }
